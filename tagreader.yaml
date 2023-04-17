@@ -4,16 +4,16 @@ wifi:
   password: !secret wifi_password
   manual_ip:
     # Set this to the IP of the ESP
-    static_ip: 10.20.0.97
+    static_ip: xx
     # Set this to the IP address of the router. Often ends with .1
-    gateway: 10.20.0.1
+    gateway: xx
     # The subnet of the network. 255.255.255.0 works for most home networks.
-    subnet: 255.255.255.0
+    subnet: xx
 
   # Enable fallback hotspot (captive portal) in case wifi connection fails
   ap:
     ssid: "Esp32-Tag-Reader"
-    password: "MUcmlfgMzf2T"
+    password: "xx"
 
 # Enable the captive portal for inital WiFi setup
 captive_portal:
@@ -167,7 +167,7 @@ logger:
 # Enable Home Assistant API
 api:
   encryption:
-    key: "cWgmdJvB5vfiyWSXodi/0OcwQoD5D9HsWrljwOjAieg="
+    key: "xx"
     
   services:
   - service: rfidreader_tag_ok
@@ -242,7 +242,7 @@ api:
 
 # Enable OTA upgrade
 ota:
-  password: "13b6550d741494738b83b4ab93c50257"
+  password: "xx"
 
 i2c:
   scan: False
