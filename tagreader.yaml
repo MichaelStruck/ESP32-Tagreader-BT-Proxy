@@ -19,7 +19,7 @@ wifi:
 captive_portal:
 
 dashboard_import:
-  package_import_url: github://adonno/tagreader/tagreader.yaml
+  package_import_url: github://michaelstruck/ESP32-Tagreader-BT-Proxy/tagreader.html
 
 improv_serial:
 
