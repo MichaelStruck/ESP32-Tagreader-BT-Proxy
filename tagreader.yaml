@@ -34,7 +34,7 @@ bluetooth_proxy:
 
 substitutions:
   name: esp32_nfc_reader_bt_proxy
-  friendly_name: ESP32 NFCReader/BT Proxy
+  friendly_name: ESP32 NFC Reader/BT Proxy
 
 esphome:
   name: esp32-nfc-reader
